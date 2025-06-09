@@ -1,0 +1,19 @@
+.hero-content{
+    background: url('../../assets/images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;   /* ✅ prevent cropping */
+    background-position: center;
+   
+    /* padding: 6rem 2rem; */
+    text-align: center;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: bisque
+}
+
+h1{
+    font-size: 4rem;
+}

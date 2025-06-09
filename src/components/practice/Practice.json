@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Corporate Law",
+    "description": "We provide comprehensive legal services for businesses, including contract drafting, compliance, and corporate governance.",
+    "link": "/services/corporate"
+  },
+  {
+    "title": "Criminal Law",
+    "description": "Our experienced criminal defense attorneys are dedicated to protecting your rights and ensuring a fair trial.",
+    "link": "/services/criminal"
+  },
+  {
+    "title": "Property Disputes",
+    "description": "We handle all aspects of property law, including disputes over ownership, leases, and real estate transactions.",
+    "link": "/services/property"
+  },
+  {
+    "title": "Civil Litigation",
+    "description": "We represent clients in civil lawsuits with a strategic and results-oriented approach.",
+    "link": "/services/civil"
+  },
+  {
+    "title": "Family Law",
+    "description": "We help clients navigate family-related legal issues, including divorce, custody, and adoption.",
+    "link": "/services/family"
+  },
+  {
+    "title": "Employment Law",
+    "description": "We provide guidance on workplace rights, employment contracts, and labor disputes.",
+    "link": "/services/employment"
+  },
+  {
+    "title": "Consumer Protection",
+    "description": "We advocate for individuals facing fraud, unfair trade practices, and defective products.",
+    "link": "/services/consumer"
+  },
+  {
+    "title": "Intellectual Property",
+    "description": "We protect your creative and business assets, including trademarks and copyrights.",
+    "link": "/services/ip"
+  }
+]

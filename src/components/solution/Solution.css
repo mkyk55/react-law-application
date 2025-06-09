@@ -1,0 +1,61 @@
+.solution-section{
+    display: flex;   
+    justify-content: center ;
+    align-items: center;
+    margin-top: 50px;
+    padding: 1rem;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.heading{
+    color: black;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    
+}
+
+.practice-h3, h4{
+    padding: 0;
+    color: white;
+}
+
+.blocks{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: bisque;
+    border-radius: 5px;
+    /* padding: 1rem; */
+}
+
+.black{
+    background-color: black;
+}
+
+.right img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 70px;
+    border-radius: 10px;
+    height: 300px;
+}
+
+@media (max-width: 600px) {
+  .solution-section{ 
+    flex-direction: column;
+  }
+}
