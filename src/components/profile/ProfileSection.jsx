@@ -1,4 +1,4 @@
-import ProfileCard from './ProfileCard';
+import ProfileCard from './ProfileCard.jsx';
 import './ProfileCard.css';
 import practice from '../../assets/images/practice.jpg';
 
