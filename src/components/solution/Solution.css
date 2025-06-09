@@ -36,13 +36,13 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    background-color: bisque;
+    background-color: #9B7D04;
     border-radius: 5px;
     /* padding: 1rem; */
 }
 
 .black{
-    background-color: black;
+    background-color: #95bce3;
 }
 
 .right img{

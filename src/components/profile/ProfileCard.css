@@ -1,0 +1,47 @@
+.profile-section {
+  padding: 2rem;
+  text-align: center;
+  background-color: #95bce3;
+
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.profile-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  min-width: 250px;
+  max-width: 350px;
+  margin: auto;
+}
+
+.profile-img {
+  width: 100%;
+  /* object-fit: contain; */
+  border-radius: 50%;
+  /* margin-bottom: 1rem; */
+  height: 200px;
+}
+
+.role {
+  font-weight: bold;
+  color: #555;
+}
+
+.bio {
+  font-size: 0.9rem;
+  color: #777;
+}
