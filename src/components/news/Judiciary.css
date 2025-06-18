@@ -1,0 +1,68 @@
+
+/* Container holding all news cards */
+.news-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+  gap: 20px;
+  padding: 2rem;
+  background-color: bisque; /* slight vintage paper tone */
+}
+
+/* Each individual news card */
+.news-card {
+  background-color: #fffdfa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.news-card:hover {
+  transform: translateX(20px);
+  border: 2px solid green; /* golden border on hover */
+  box-shadow: 0 6px 16px rgba(3, 3, 3, 0.12);
+}
+
+/* Headline */
+.news-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.75rem;
+  color: #2d2d2d;
+  font-family: 'Georgia', serif;
+}
+
+/* Description */
+.news-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Read More link */
+.news-card a {
+  display: inline-block;
+  font-size: 0.9rem;
+  color: #004080;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s ease, border-bottom 0.2s ease;
+}
+
+.news-card a:hover {
+  color: #002244;
+  border-bottom: 1px solid #002244;
+}
+
+@media (max-width: 800px) {
+  .news-list {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.title{
+    text-align: center;
+    font-size: 50px;
+}

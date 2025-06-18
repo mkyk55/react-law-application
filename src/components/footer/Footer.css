@@ -1,0 +1,43 @@
+.footer-section{
+    /* height: 50vh; */
+    color: white;
+    background: #0f1518;
+}
+.footer{
+    padding: 2rem;
+}
+.footer-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-headings{
+    color: white;
+    text-align: left;
+}
+
+ul li{
+    list-style-type:none;
+    padding: 1rem ;
+   
+}
+
+
+ul li a:hover{
+   color: bisque;
+}
+
+ul li a{
+     color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
