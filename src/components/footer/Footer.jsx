@@ -50,24 +50,17 @@ export default function Footer (){
                                     <span>F-318, Karkardooma Court </span>
                                 </li>
                             </ul>
-                            <div>   
-                                
-                                
-                                
+                            <div>
                             </div>
                             <div>
                                 
                             </div>
                             <div>
-
-                                
+  
                             </div>
                                 
                         </div>
-                
-                       
                     </div>
-
             </div>
         </>
     )

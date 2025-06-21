@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import './navbar.css';
 import logo from '../../assets/images/logo.jpg'; // Adjust the path as necessary
+import { services } from "../../data/services";
+
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -28,17 +30,13 @@ export default function Navbar() {
           <li className="dropdown">
             <span>Practice Areas</span>
             <ul className="dropdown-content">
-              <li><Link to="/services/corporate" onClick={toggleMenu}>Corporate Law</Link></li>
-              <li><Link to="/services/criminal" onClick={toggleMenu}>Criminal Law</Link></li>
-              <li><Link to="/services/property" onClick={toggleMenu}>Property Disputes</Link></li>
-
-              <li><Link to="/services/corporate" onClick={toggleMenu}>Corporate Law</Link></li>
-              <li><Link to="/services/criminal" onClick={toggleMenu}>Criminal Law</Link></li>
-              <li><Link to="/services/property" onClick={toggleMenu}>Property Disputes</Link></li>
-
-              <li><Link to="/services/corporate" onClick={toggleMenu}>Corporate Law</Link></li>
-              <li><Link to="/services/criminal" onClick={toggleMenu}>Criminal Law</Link></li>
-              <li><Link to="/services/property" onClick={toggleMenu}>Property Disputes</Link></li>
+              {services.map((service) => (
+                  <li key={service.path}>
+                    <Link to={`/services/${service.path}`} onClick={toggleMenu}>
+                      {service.name}
+                    </Link>
+                  </li>
+                ))}
             </ul>
           </li>
 
